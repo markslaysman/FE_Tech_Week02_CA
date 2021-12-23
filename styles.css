@@ -1,3 +1,21 @@
-body {
-	background-color: lightgray;
+#picture-box {
+	perspective: 1360px;
+}
+
+/*
+.animal-images {
+    --border-radius: 5%;
+}
+*/
+
+#main-dog-image {
+	transform: rotateY(45deg);
+	border-radius: 50%;
+	box-shadow: -10px 5px 5px black;
+}
+
+#main-cat-image {
+	transform: rotateY(-45deg);
+	border-radius: 50%;
+	box-shadow: 10px 5px 5px black;
 }
