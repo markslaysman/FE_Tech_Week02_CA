@@ -1,6 +1,55 @@
-#picture-box {
-	perspective: 1360px;
+.grid-container {
+	display: grid;
 }
+
+.flex-container {
+	display: flex;
+}
+
+.main-content {
+	max-width: 80%;
+	padding-top: 80px;
+	margin: auto;
+}
+
+/* My NavBar Setup */
+.my-navbar {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	padding: 0;
+}
+
+.my-navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+.my-navbar li {
+	float: left;
+}
+
+.my-navbar li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.my-navbar li a:hover {
+	background-color: #111;
+}
+
+.active {
+	background-color: purple;
+}
+/* END NAV BAR */
 
 /*
 .animal-images {
@@ -9,13 +58,11 @@
 */
 
 #main-dog-image {
-	transform: rotateY(45deg);
 	border-radius: 50%;
 	box-shadow: -10px 5px 5px black;
 }
 
 #main-cat-image {
-	transform: rotateY(-45deg);
 	border-radius: 50%;
 	box-shadow: 10px 5px 5px black;
 }
