@@ -11,28 +11,33 @@
     <header>
         <nav class="my-navbar">
             <ul>
-                <li><a href="index.html">Main Page</a>
-                <li class="active"><a href=page2.html">Page 2</a></li>
+                <li><a href="index.html">Main Page</a></li>
+                <li class="active"><a href="page2.html">Page 2</a></li>
                 <li><a href="page3.html">Page 3</a></li>
             </ul>
         </nav>
     </header>
 
     <div class="main-content">
+        <div class="flex-container">
+            <p class="my-pet-preference">I'm a dog person.</p>
+        </div>
 
-        <p>I'm a dog person.</p>
-        <img src="https://images.dog.ceo/breeds/germanshepherd/n02106662_20036.jpg">
-
+        <div class="flex-container class="pet-image-gallery">
+            <img class="animal-images" id="main-dog-image" src="https://images.dog.ceo/breeds/germanshepherd/n02106662_20036.jpg">
+        </div>
         
-        <p>Here is a list of names I've given my dogs
-            <ul>
+        <div class="flex-container dog-names">
+            <h3>Here is a list of names I've given my dogs</h3>
+
+            <ul class="my-dog-names">
                 <li>Sam</li>
                 <li>Tiffany</li>
                 <li>Ares</li>
                 <li>Cricket</li>
                 <li>Prissy</li>
             </ul>
-        </p>
+        </div>
     </div>
 </body>
 </html>

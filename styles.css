@@ -1,9 +1,25 @@
+body {
+	background-image: url('../images/repeated-square.png');
+}
+
+h3 {
+	background-color: #36454f;
+	color: whitesmoke;
+	padding: 5px;
+}
+
 .grid-container {
 	display: grid;
 }
 
 .flex-container {
 	display: flex;
+	justify-content: center;
+}
+
+.pet-image-gallery {
+	display: flex;
+	justify-content: space-between;
 }
 
 .main-content {
@@ -65,4 +81,39 @@
 #main-cat-image {
 	border-radius: 50%;
 	box-shadow: 10px 5px 5px black;
+}
+
+.pet-selection-form {
+	margin: 10px;
+	padding: 10px;
+}
+
+.pet-selection-submit-btn {
+	text-align: center;
+}
+select {
+	width: 100px;
+	margin: 5px;
+	text-align: center;
+}
+
+.my-pet-preference {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-style: oblique;
+	font-size: 2em;
+}
+
+.dog-names {
+	flex-direction: column;
+	align-items: center;
+	margin: 20px;
+}
+
+.my-dog-names {
+	list-style: none;
+}
+
+.my-dog-names li::before {
+	content: '\1F436';
+	list-style-position: outside;
 }
